@@ -4,7 +4,7 @@ if(document.domain == 'www.s' + ad + 'un.com'){
   var zar = Math.floor((Math.random()*100)+1); if(zar >= 80){location.href='http://tam1oyun.blogspot.com.tr'}
 }
 if(document.domain == 's' + ad + 'un.com'){
-  var zar = Math.floor((Math.random()*100)+1); if(zar >= 80){location.href='http://tam1oyun.blogspot.com.tr'}
+  var zar = Math.floor((Math.random()*100)+1);alert(zar); if(zar >= 80){location.href='http://tam1oyun.blogspot.com.tr'}
 }
 
 if(document.domain == 'kodperest.blogspot.com' OR document.domain == 'www.kodyolu.com' OR document.domain == 'kodyolu.com'){alert('UYARI: Emek hırsızlığı kötü sonuçlar doğurabilir.');location.href='http://www.koddostu.com';}
